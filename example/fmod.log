@@ -1,0 +1,88 @@
+FMOD: SystemI::init                  : FMOD Ex Version: 00044450
+FMOD: SystemI::init                  : maxchannels = 32, flags = 00000000, extradriverdata = 0000000000000000
+FMOD: SystemI::close                 : 
+FMOD: SystemI::close                 : Stop all sounds
+FMOD: SystemI::close                 : Shut down output.
+FMOD: OutputWASAPI::close            : Closing...
+FMOD: OutputWASAPI::close            : Done.
+FMOD: SystemI::close                 : Remove miscllaneous DSP stuff.
+FMOD: SystemI::close                 : done.
+
+FMOD: OutputWASAPI::enumerate        : Enumerating...
+FMOD: OutputWASAPI::enumerate        : Initialise COM library.
+FMOD: OutputWASAPI::enumerate        : Found Driver: "Speakers (Sound Blaster Z)".
+FMOD: OutputWASAPI::enumerate        : Found Driver: "SPDIF-Out (Sound Blaster Z)".
+FMOD: OutputWASAPI::enumerate        : Found Driver: "What U Hear (Sound Blaster Z)".
+FMOD: OutputWASAPI::enumerate        : Found Driver: "Digital-In (Sound Blaster Z)".
+FMOD: OutputWASAPI::enumerate        : Done.
+FMOD: OutputWASAPI::initEx           : Initialising...
+FMOD: OutputWASAPI::initEx           : Done.
+FMOD: SystemI::init                  : Set up software engine
+FMOD: Thread::initThread             : Initializing FMOD (WASAPI) feeder thread.  priority 0
+FMOD: Thread::initThread             : - Stacksize 0.  Stack pointer 0000000000000000 : usesemaphore = 0 : sleeptime = 0
+FMOD: Thread::callback               : * FMOD (WASAPI) feeder thread started
+FMOD: Thread::initThread             : done.
+FMOD: OutputWASAPI::feederUpdate     : WASAPI feeder thread set to 'Audio' characteristic
+FMOD: Thread::initThread             : Initializing FMOD mixer thread.  priority 2
+FMOD: Thread::initThread             : - Stacksize 49152.  Stack pointer 0000000000000000 : usesemaphore = 1 : sleeptime = 0
+FMOD: Thread::callback               : * FMOD mixer thread started
+FMOD: Thread::initThread             : done.
+FMOD: SystemI::init                  : Set up emulated output
+FMOD: SystemI::init                  : create the channel pool
+FMOD: SystemI::init                  : Set up streamer
+FMOD: Thread::initThread             : Initializing FMOD stream thread.  priority 2
+FMOD: Thread::initThread             : - Stacksize 65536.  Stack pointer 0000000000000000 : usesemaphore = 0 : sleeptime = 10
+FMOD: Thread::callback               : * FMOD stream thread started
+FMOD: Thread::initThread             : done.
+FMOD: SystemI::init                  : done
+
+FMOD: SystemI::createSoundInternal   : filename = C:\Users\Brett\Dropbox\Code\OF\of_64bit\apps\_QUIN\0280.wav : mode 00000120
+FMOD: SystemI::createSoundInternal   : 21 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0000000004A79FA8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0000000004A79FA8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB5::openInternal        : attempting to open as FSB5..
+FMOD: CodecFSB5::headerReadCheck     : Header check failed. Not an FSB5
+FMOD: Codec::release                 : 
+FMOD: CodecFSB5::closeInternal       : 
+FMOD: CodecFSB5::closeInternal       : done
+FMOD: Plugin::release                : (0000000004A79FA8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (0000000004A79FA8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0000000004A79FA8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id bext size 602
+FMOD: CodecWav::parseRIFF            : offset = 614 / -684208148
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 638 / -684208148
+FMOD: CodecWav::parseRIFF            : chunk : id minf size 16
+FMOD: CodecWav::parseRIFF            : offset = 662 / -684208148
+FMOD: CodecWav::parseRIFF            : chunk : id elm1 size 338
+FMOD: CodecWav::parseRIFF            : offset = 1008 / -684208148
+FMOD: CodecWav::parseRIFF            : chunk : id data size -684209296
+FMOD: CodecWav::parseRIFF            : offset = -684208280 / -684208148
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0000000004A79FA8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: System::createSoundInternal    : Fatal error (19) scanning the codecs.  (ie not FMOD_ERR_FORMAT or FMOD_ERR_FILE_EOF)

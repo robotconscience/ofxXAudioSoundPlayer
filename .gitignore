@@ -1,0 +1,8 @@
+*.exe
+*/x64
+*/bin/*.dll
+*.ilk
+*.pdb
+*.sdf
+*.opensdf
+*.DS_Store

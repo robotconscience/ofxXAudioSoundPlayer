@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ofXAudioSoundPlayer.cpp">
+      <Filter>ofxXAudioSoundPlayer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{4a746716-03a7-4363-9834-8c06a697e49d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ofxXAudioSoundPlayer">
+      <UniqueIdentifier>{df1f6776-8c8a-4cac-850b-e96e23570b87}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ofXAudioSoundPlayer.h">
+      <Filter>ofxXAudioSoundPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\waveInfo.h">
+      <Filter>ofxXAudioSoundPlayer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
